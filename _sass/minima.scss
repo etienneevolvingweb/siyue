@@ -47,3 +47,71 @@ $on-laptop:        800px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+body {
+  background-color: #ccc;
+}
+
+h2 {
+  margin-bottom: $spacing-unit * 1.5;
+}
+
+.container {
+  background-color: #fff;
+}
+
+.col-xh-padding {
+  padding-left: $spacing-unit * 3;
+  padding-right: $spacing-unit * 3;
+}
+
+.col-xv-padding {
+  padding-top: $spacing-unit * 2;
+  padding-bottom: $spacing-unit *2;
+}
+
+.btn-light{
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #9393FF;
+  color: #9393FF;
+  font-size: 12px;
+}
+
+.btn-light:hover{
+  background-color: #9393FF;
+  color: #fff;
+}
+
+h1.intro{
+  color: #2d5476;
+  font-family: Merriweather;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+h2.ptitle{
+  color: #2d5476;
+  font-family: Merriweather;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+h4.subtitle{
+  color: #3a3a3a;
+  font-family: "Open Sans Condensed";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+h5.intro{
+  color: #424f5b;
+  font-family: "Open Sans Condensed";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+}
