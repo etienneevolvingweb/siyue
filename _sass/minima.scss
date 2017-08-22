@@ -37,6 +37,12 @@ $on-laptop:        800px !default;
   }
 }
 
+@media (min-width: 1400px){
+  .container {
+      width: 1370px;
+    }
+}
+
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
 }
@@ -136,4 +142,19 @@ p.section-text{
   font-family: "Open Sans";
   font-size: 20px;
   line-height: 32px;
+}
+
+p.list-text{
+  color: #3a3a3a;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 26px;
+}
+.left-65{
+  padding-left: 65px;
+}
+
+span.year{
+  margin-left: -65px;
+  float:left;
 }
