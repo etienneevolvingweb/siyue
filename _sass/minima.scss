@@ -83,7 +83,7 @@ h2 {
   color: #fff;
 }
 
-h1.intro{
+h1.name-intro{
   color: #2d5476;
   font-family: Merriweather;
   font-size: 44px;
@@ -107,11 +107,33 @@ h4.subtitle{
   line-height: 40px;
 }
 
-h5.intro{
+h4.list-heading{
+  color: #3a3a3a;
+  font-family: "Open Sans Condensed";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+h5.page-intro{
   color: #424f5b;
   font-family: "Open Sans Condensed";
   font-size: 20px;
   font-weight: 700;
   line-height: 40px;
   text-transform: uppercase;
+}
+
+p.intro-para{
+  color: #3a3a3a;
+  font-family: "Open Sans";
+  font-size: 24px;
+  line-height: 40px;
+}
+
+p.section-text{
+  color: #3a3a3a;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 32px;
 }
